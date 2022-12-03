@@ -16,10 +16,13 @@ body {
     height: 3rem;
     width: 100%;
     background-color: rgb(60 58 57);
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
   }
 
   .fa-bars {
@@ -29,7 +32,7 @@ body {
 
   .logo-title {
     text-decoration: none;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: white;
@@ -92,11 +95,11 @@ body {
   }
 
   .bg-design {
-    margin: -5rem 0 0 0;
-    width: 34%;
+    width: 40%;
+    background: url(img/Group.png);
   }
 
-  .work-section {
+  /* .work-section {
     height: 100%;
     width: 100%;
     padding: 0 1rem;
@@ -398,5 +401,5 @@ body {
   .Skils-section_language-image img {
     width: 7%;
     height: 10%;
-  }
+  } */
 }
