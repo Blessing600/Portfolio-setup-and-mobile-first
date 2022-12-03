@@ -32,7 +32,7 @@ Code Editor
 ### Setup
 
 ```bash
-git clone https://github.com/Blessing600/Hello-Microverse
+https://github.com/Blessing600/Portfolio-setup-and-mobile-first.git
 cd Portfolio-setup-and-mobile-first
 ```
 
