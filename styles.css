@@ -96,7 +96,7 @@ body {
     width: 34%;
   }
 
-  /* .work-section {
+  .work-section {
     height: 100%;
     width: 100%;
     padding: 0 1rem;
@@ -293,10 +293,6 @@ body {
     position: relative;
   }
 
-  /* .about-title_section {
-
-  }
-/*
   .about-title_section-h1 {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-weight: 600;
@@ -403,5 +399,4 @@ body {
     width: 7%;
     height: 10%;
   }
-  */
 }
