@@ -18,7 +18,7 @@ CSS
 
 ## Key Features
 
-HTML CSS project displaying Portfolio Website
+HTML CSS project displaying Portfolio on mobile device
 
 ## Getting Started
 
