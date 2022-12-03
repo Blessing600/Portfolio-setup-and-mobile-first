@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 Portfolio: finish mobile version
 
-**[your_project__name]** is a A Portfolio Website
+**[your_project__name]** A Portfolio Website
 
 ## 🛠 Built With <a name="built-with"></a>
 
