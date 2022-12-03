@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Portfolio SETUP Microverse Project
+Portfolio: finish mobile version
 
 > Description the project.
 > A Portfolio Website
