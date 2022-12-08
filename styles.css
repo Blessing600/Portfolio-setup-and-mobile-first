@@ -97,306 +97,293 @@ body {
   background: url(img/Group.png);
 }
 
-/* .work-section {
-    height: 100%;
-    width: 100%;
-    padding: 0 1rem;
-  }
+.work-section {
+  background-color: rgb(229 229 229);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
 
-  .sub_work-section-2 {
-    padding: 0 1rem;
-  }
+.sub_work-section-2 {
+  padding: 0 1rem;
+}
 
-  .work-section-title h1 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 3rem;
-  }
+.work-section-title h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
 
-  .worksection-lineheight {
-    display: flex;
-    justify-content: center;
-  }
+.worksection-lineheight {
+  display: flex;
+  justify-content: center;
+}
 
-  .worksection-lineheight hr {
-    width: 60%;
-  }
+.worksection-lineheight hr {
+  width: 60%;
+}
 
-  .work-section-card {
-    padding: 4rem 0;
-  }
+.work-section-card {
+  padding: 3rem 1rem;
+}
 
-  .work-section-card h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    color: #091e42;
-  }
+.work-section-card h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
 
-  .work-section-card p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #091e42;
-  }
+.work-section-card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
 
-  .work-section-button {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.6rem -40px;
+}
 
-  .work-section-button-1 {
-    width: 15%;
-    font-size: 14px;
-    border: #091e42 solid 1px;
-    text-align: center;
-    color: #091e42;
-    margin: 0 3px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.card li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #091e42;
+  padding: 8px;
+  border: 1px solid #8993a4;
+}
 
-  .work-section-button-2 {
-    width: 20%;
-    font-size: 14px;
-    border: #091e42 solid 1px;
-    text-align: center;
-    color: #091e42;
-    margin: 0 3px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.work-section-mainbutton {
+  margin-top: 1rem;
+  width: 30%;
+  background-color: rgb(255 107 0);
+  height: 30px;
+  text-align: center;
+}
 
-  .work-section-button-3 {
-    width: 30%;
-    font-size: 14px;
-    border: #091e42 solid 1px;
-    text-align: center;
-    color: #091e42;
-    margin: 0 3px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.work-section-mainbutton a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 4px 0;
+}
 
-  .work-section-mainbutton {
-    margin-top: 1rem;
-    width: 30%;
-    background-color: rgb(255 107 0);
-    height: 30px;
-    text-align: center;
-  }
+.work-section-mainbutton a:hover {
+  color: rgb(245 88 0);
+  background: rgb(255 245 225);
+  border: 1px solid rgb(245 88 0);
+}
 
-  .work-section-mainbutton a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    padding: 4px 0;
-  }
+.work-section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(180.45deg, rgb(38 38 38 / 0%) 0.75%, rgb(38 38 38 / 90%) 61.94%), url("img/img2.png");
+  padding-top: 75px;
+  padding-bottom: 0;
+}
 
-  .work-section-mainbutton a:hover {
-    color: rgb(245 88 0);
-    background: rgb(255 245 225);
-    border: 1px solid rgb(245 88 0);
-  }
+.work-section-2 h1 {
+  color: white;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 
-  .work-section-2 {
-    width: 100%;
-    height: 19rem;
-    background: linear-gradient(180.45deg, rgb(38 38 38 / 0%) 0.75%, rgb(38 38 38 / 90%) 61.94%), url(img/img2.png);
-    padding: 6rem 0;
-  }
+.sub_work-section-2-p {
+  margin-top: 1rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
 
-  .work-section-2 h1 {
-    color: white;
-    font-size: 32px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  }
+.about-section-mainbutton .tag-2 {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 4px 0;
+}
 
-  .sub_work-section-2-p {
-    margin-top: 1rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-  }
+.work-section-mainbutton-2 {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: rgb(255 107 0);
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+}
 
-  .work-section-2-button {
-    display: flex;
-    width: 80%;
-  }
+.work-section-mainbutton-2 .tag-2 {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
 
-  .work-section-2-button-2 {
-    width: 23%;
-    height: 1.5rem;
-    font-size: 14px;
-    background-color: rgba(128, 128, 128, 0.084);
-    text-align: center;
-    color: white;
-    margin: 10px 8px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
-    border: solid 0.1px rgba(128, 128, 128, 0.084);
-    padding: 6px;
-  }
+.work-section-mainbutton-2 a:hover {
+  color: rgb(245 88 0);
+  background: rgb(255 245 225);
+  border: 1px solid rgb(245 88 0);
+}
 
-  .work-section-2-button-3 {
-    width: 30%;
-    height: 1.5rem;
-    font-size: 14px;
-    background-color: rgba(128, 128, 128, 0.084);
-    text-align: center;
-    color: white;
-    margin: 10px 8px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
-    border: solid 0.1px rgba(128, 128, 128, 0.084);
-    padding: 6px;
-  }
+.work-section-mainbutton-2 a:active {
+  background-color: rgb(224 83 4);
+  color: rgb(244 241 240);
+}
 
-  .work-section-mainbutton-2 {
-    margin-top: 0.5rem;
-    width: 100%;
-    background-color: rgb(255 107 0);
-    height: 35px;
-    text-align: center;
-    padding: 4px;
-  }
+.ab-section {
+  background: #1c1a19;
+  margin: 7rem 0;
+}
 
-  .work-section-mainbutton-2 a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: white;
-  }
+.about-section {
+  padding: 4rem 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .work-section-mainbutton-2 a:hover {
-    color: rgb(245 88 0);
-    background: rgb(255 245 225);
-    border: 1px solid rgb(245 88 0);
-  }
+.about-title_section-h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
 
-  .work-section-mainbutton-2 a:active {
-    background-color: rgb(224 83 4);
-    color: rgb(244 241 240);
-  }
+.about-title_section-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
 
-  .about-section {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    padding: 3rem 0;
-    position: relative;
-  }
+.about-section-mainbutton {
+  margin-top: 1rem;
+  width: 45%;
+  background-color: rgb(255 107 0);
+  height: 40px;
+  text-align: center;
+  padding: 8px 0;
+}
 
-  .about-title_section-h1 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 4rem;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-  }
+.about-section-mainbutton a:hover {
+  color: rgb(245 88 0);
+  background: rgb(255 245 225);
+  border: 1px solid rgb(245 88 0);
+}
 
-  .about-title_section-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #f4f5f7;
-  }
+.tag-3 {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
 
-  .about-section-mainbutton {
-    margin-top: 1rem;
-    width: 30%;
-    background-color: rgb(255 107 0);
-    height: 30px;
-    text-align: center;
-  }
+.work-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 
-  .about-section-mainbutton a:hover {
-    color: rgb(245 88 0);
-    background: rgb(255 245 225);
-    border: 1px solid rgb(245 88 0);
-  }
+.work-list li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  padding: 11px;
+  background: #ffffff3d;
+}
 
-  .about-section-mainbutton a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    padding: 4px 0;
-  }
+.work-section-menu {
+  width: 100%;
+  margin: 0.6rem -40px;
+}
 
-  .about-section-image {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-  }
+.sideimage {
+  width: 30%;
+  height: 100%;
+}
 
-  .sideimage {
-    width: 30%;
-    height: 100%;
-  }
+/* .about-section-lineheight {
+  display: flex;
+  justify-content: center;
+} */
 
-  .about-section-lineheight {
-    display: flex;
-    justify-content: center;
-  }
+.about-section-lineheight hr {
+  width: 98%;
+  background-color: white;
+  margin: 8rem 0;
+}
 
-  .about-section-lineheight hr {
-    width: 95%;
-    background-color: white;
-  }
+.Skils-section_language-image {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 20px;
+  align-items: center;
+}
 
-  .Skils-section_language-image {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-    gap: 20px;
-    align-items: center;
-  }
+.Skils-section_subtitle {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+}
 
-  .Skils-section_subtitle {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 22px;
-    line-height: 43px;
-    text-align: center;
-  }
+.Skils-section_language-image h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+}
 
-  .Skils-section_language-image h1 {
-    color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 43px;
-    text-align: center;
-  }
+.Skils-section_subtitle li {
+  color: white;
+  font-size: 22px;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 400;
+}
 
-  .Skils-section_subtitle li {
-    color: white;
-    font-size: 15px;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 40px;
-    text-align: center;
-  }
+.Skils-section_language {
+  margin: 2rem;
+}
 
-  .Skils-section_language {
-    margin: 2rem;
-  }
+.Skils-section_language-image img {
+  width: 9%;
+  height: 10%;
+}
 
-  .Skils-section_language-image img {
-    width: 7%;
-    height: 10%;
-  } */
+.work-section-2-card {
+  padding: 4rem 1rem;
+}
+
+.about-title_section-subsection {
+  margin: 3rem  0;
+}
