@@ -218,19 +218,19 @@ body {
 }
 
 .work-section-mainbutton-2 {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   width: 100%;
   background-color: rgb(255 107 0);
-  height: 35px;
+  height: 50px;
   text-align: center;
-  padding: 4px;
+  padding: 12px;
 }
 
 .work-section-mainbutton-2 .tag-2 {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
 }
 
@@ -291,8 +291,8 @@ body {
 .tag-3 {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 15px;
   color: white;
   text-align: center;
   padding: 4px 0;
@@ -325,14 +325,15 @@ body {
   height: 100%;
 }
 
-.about-section-lineheight {
+/* .about-section-lineheight {
   display: flex;
   justify-content: center;
-}
+} */
 
 .about-section-lineheight hr {
-  width: 95%;
+  width: 98%;
   background-color: white;
+  margin: 8rem 0;
 }
 
 .Skils-section_language-image {
@@ -380,4 +381,8 @@ body {
 
 .work-section-2-card {
   padding: 4rem 1rem;
+}
+
+.about-title_section-subsection {
+  margin: 3rem  0;
 }
